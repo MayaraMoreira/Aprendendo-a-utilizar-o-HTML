@@ -1,0 +1,51 @@
+<!-- INPUT Pt1 -->
+<input>
+Uma forma de enviar informações para o pc. (na aba de busca/onde coloca o e-mail/ caixinha onde coloca a senha/ etc)
+Dentro do 'input' posso colocar o "autocomplete=". Ele completa frases que ja foram escritas antes.
+(Porém vc precisa expessificar o que ele vai completar. Ex. Minha rua/ meu telefone...)
+Dentro do 'input' posso colocar o "disabled". Para desabilitar o input.
+Dentro do 'input' posso colocar o "value=". Para colocar um valor ao input.
+Dentro do 'input' posso colocar o "readonly". Ele deixa o input habilitado, mas não permite que vc digite.
+Dentro do 'input' posso colocar o "placeholder". Você pode deixar uma fase escrita no input, porém, quando alguem pesq algo, a frase some.
+Dentro do 'input' posso colocar o "autofocus". Ele vai focar na input. (Colocar apenas em 1 em cada pag)
+<br>
+
+<input autocomplete="street-address" disabled value="May" />
+<br>
+<input autocomplete="street-address" readonly value="May" />
+<br>
+<input autocomplete="street-address" placeholder="Digite sua rua" autofocus />
+<br>
+A "label" nos ajuda a definir o intuito da input.
+Dentro da 'label' Posso expessificar o intuito da próxima ação. Dessa forma eles ficam interligados.
+<br>
+
+<label>
+    Rua:
+    <input 
+            autocomplete="street-address"
+            placeholder="Digite sua rua"
+            
+            />
+</label>
+<br>
+OUTRA Opção de usar o 'label'. 
+O 'id=' significa identificação.
+O 'for=' Procura a identificação do "id=" Assim a maquina irá saber que esse input pertece a esse label.
+<br>
+
+<label for="rua"> Rua: </label>
+<input id="rua" /> 
+
+
+
+
+
+
+
+
+
+
+
+
+
