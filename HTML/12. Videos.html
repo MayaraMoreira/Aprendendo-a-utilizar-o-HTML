@@ -1,0 +1,39 @@
+<!-- VIDEOS EM HTML -->
+TAG 'Video'
+Dentro da TAG 'video', colocar o 'src='para add o video.
+Dentro da TAG 'video' colocar 'controls' para abilitar os controles do video. ('play, volume, etc...')
+Dentro da TAG 'video' pode colocar 'controlsList=''nodownload' (L maiusculo) para desabilitar o Download.
+Dentro da TAG 'video' podemos colocar o "autoplay". Assim o video começa a rodar automaticamente. (Alguns alguns navegadores Bloquiam o 'autoplay')
+Dentro da TAG 'video' pademos colocar o "muted". Aaaim o video começa a rodar automaticamente, MAS NO MUDO. (sem som).
+Dentro da TAG 'video' podemos colocar o "poster". Ou seja, uma Imagem de CAPA para o video.
+
+<video src="./Videos/Safira.mp4" controls controlsList="nodownload"  muted poster="./img/Capa.jpg"> </video>
+<br>
+<br>
+
+<!-- OUTRA FORMA DE FAZER -->
+
+Dentro da TAG 'video' pode ser usada outra TAG além de só 'src'. Que é "source". Essa TAG habilita mais opções.
+Ex. Em vez do video estar em MP4, ele poderia ser colocado em MKV, MOV, etc... (Que é outro formato de video).
+Dentro da TAG 'video' podemos mudar a Largura com "width="400".
+Dentro da TAG 'video' podemos mudar a Altura com "height="500".
+
+
+<video controls width="400">
+    <source src="./Videos/Safira.mkv">
+    <source src="./Videos/Safira.mov">
+    <source src="./Videos/Safira.mp4">
+</video>
+
+
+
+
+
+
+
+
+
+
+
+
+
