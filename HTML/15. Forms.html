@@ -1,0 +1,58 @@
+<!-- FORMS - FORMULARIO - Dentro do formulario podemos colocar diversos inputs, eles ficarão organizados la dentro.
+    Dentro do formulario podemos colocar algumas configurações que podemos colocar.
+    Dentro da TAG 'forms'posso colocar o "action=". Que é onde serão enviados meus dados.
+    Dentro da TAG 'forms'posso colocar o "method=get". Que é o metodo que vou enviar os dados.
+    Metodo "get" é quando seu aparelho se comunica com outro por meio da url.
+    Metodo "post" ele envia os dados em secreto, escondido. Ele não fica visível na url.
+    - Capiturar dados de entrada 
+    - input -> Entrada
+    Action -> define para qual "url" será enviado os dados, vazio enviar para mesmo url
+    Method
+         - GET
+         - POST-->
+<!-- cc-number TAG para número de cartão de crédito
+    número de casa "address-level3" 
+    Quando o botão "button" esta dentro da TAG formulario "form". E ele entende que quando alguem clicar nesse botão,
+    todas as informações que estão dentro do formulario serão enviadas. -->
+
+<form action="" method="get" enctype="multipart/form-data">
+
+    <h1> Digite seu Endereço </h1>
+    
+    <label>
+        Rua:
+        <input type="text" name="rua" autocomplete="street-address"> 
+        </label>
+
+        <label>
+            Número:
+            <input type="number" name="numero" autocomplete="address-line3"> 
+            </label>
+
+        <label>
+            E-mail:
+            <input type="email" name="email" /> 
+            </label>
+
+            <label>
+                Foto:
+                <input type="file" name="arquivo" /> 
+                </label>
+
+        <button type="submit"> Enviar dados </button>
+
+        <button type="reset"> Reset </button> </form>
+
+<!-- button do type= reset. Ele exclui as informações escritas. -->
+<!-- Quando vc colotar um 'type' tipo "file" é necessario, colocar na tag.
+     Dessa forma vc esta avisando ao servidor que dentro do seu formulario esta indo um arquivo.-->
+
+
+
+
+
+
+
+
+
+
