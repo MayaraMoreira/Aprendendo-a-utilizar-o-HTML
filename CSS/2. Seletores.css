@@ -1,0 +1,33 @@
+/* SELETOR É ALGO QUE SELECIONA, A FORMA QUE VC VAI LINKAR O HTML COM O CSS  
+Seletor, pela TAG.
+Outro seletor é o 'ASTERISTICO' * . QUANDO COLOCADO ESSE SELETOR, ELE VAI APLICAR UMA CONFIGURAÇÃO
+EM TUDO!Toda a pag.
+
+SEMPRE LEMBRAR DE MUDAR O "hret" !!!
+
+*/
+
+* {
+    background: blue;
+}
+
+/* "class ( classes) a classe seria como um cep. Ela serve para identificar vários elementos. Ou
+seja, vários elementos HTML podem usar a mesma classe, e conseguimos estilizalos no CSS.
+
+ID ( identificador único) Já o ID seria como seu CPF ou RG. Ele serve para identificar apenas UM
+elemento. Ou seja, você só pode usar um ID específico uma TAG ou um ELEMENTO de uma vez na sua
+página do HTML.
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
