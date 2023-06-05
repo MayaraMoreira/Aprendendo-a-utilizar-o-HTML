@@ -1,0 +1,35 @@
+/* Representando uma cor em "rgb()"
+Misturando - RED , GREEN , BLUE - Formamos qualquer cor. 
+A intensidade de cada cor vai de 0 - 255 
+
+HEXADECIMAL (# e o número ou a letra)
+DECIMAL= 0,1,2,3,4,5,6,7,8,9...Com isso vc pode formar qualquer numero.
+10,11,12,13...
+Base (10)
+HEXADECIMAL= 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F.
+10,11,12,13...19,1A,1B,1C,1D...
+Base (16)
+
+*/
+
+h1 {
+    background: rgb(31, 46, 121);
+}
+
+p { 
+    background: #00FF00;
+}
+
+/* Alguns site para sabermos a númeração das cores
+  w3schools - CSS - Formar cor - Copiar e colar cor.
+
+  color.adobe.com - Formar cor - Copiar e colar cor. -
+  estrair tema - colar um arquivo de img - ele diz quais cores são.
+
+#FF0000 VERMELHO
+#00FF00 VERDE
+#0000FF AZUL
+
+
+  coolors - ele vai gerando cores (ir apretando "espaço")
+*/
