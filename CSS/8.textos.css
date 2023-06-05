@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+h1 {
+    color: #0000ff;
+    font-size: 64px;
+    font-weight: lighter;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    text-shadow: 10px 10px 10px #FF0000;
+}
+
+p {
+    color: #ff0000;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    line-height: 50px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/* 
+   "font-family" é a fonte da letra/ estilos das letras.
+    2 opções...
+    GOOGLE FONTS - celecionar a fonte desejada - copiar e colar no projeto dps no HTML.
+    Para por direto no CSS, insetir pelo importe. google - topo do css - @import url...
+
+    "font-weight"
+    "bold" é negrito
+    "bolder" é o negrito com maior escala.
+    "ligter" é o mais fino. Oposto do negrito.
+
+    "font-style" é o estilo da fonte.
+
+    "line-height" é a altura das linhas (em px).
+
+    "letter-soacing" é o espaço entre as letras (em px).
+    
+    "word-spacing" é o espaciamento entre as palavras (em px).
+     
+    "text-align" é o alinhamento do texto. ('center' - centraliza as palavras,
+    'right' - todas as palavras vão para o lado direito, 'justify' - vai justificar o texto
+    deixar bem quadrado. 
+
+    "text-transform" ele deixa todas as letras maíusculas ou mínusculas.
+    'uppercase' - MAIUSCULAS, 'lowercase' minuscolas, 'capitalize' Só A Primeira Palavra Maiuscula.
+    
+    "text-decoration" pode inserir algo no texto.
+    'underlene' - anderlaine em todas as palavras (linha embaixo das palavras),
+    'overline' - anderlaine em todas as palavras ( uma linha em cima das palvras).
+
+    "text-shadow" sombra no texto. 4 Comfigurações...
+    1- 'o tando da sombra na orizontal' (deitado).
+    2- 'sombra na vertical' (cima para baixo).
+    3- 'o quão esfumaçada será a sombra'
+    4- ' cor da sombra'. #
+    */
