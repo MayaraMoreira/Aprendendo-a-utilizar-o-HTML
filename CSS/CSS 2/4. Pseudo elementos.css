@@ -1,0 +1,44 @@
+/* PSEUDO ELEMENTOS
+   Ele permite (Pelo CSS fazer algumas alterações). Mudar a cor de determinados
+   elementos da pag, usando ::placeholder
+
+   +2 Piseudo-elementos...
+   "first-letter" esteliriza apenas a primeira letra.
+   "first-line" esteliriza a primeira linha.
+
+   +2 Piseudo-elementos...
+   "::before" Colocar algum elemento ANTES.
+   "::after" Colocar algum elemento DEPOIS.
+   ELES TEM UMA PROPRIEDADE - "content" conteúdo.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    border: 1px solid red;
+    color: blue;
+}
+
+input::placeholder {
+    color: #FF1396;
+}
+
+p::first-line {
+    color: #34818f;
+}
+
+a {
+    color:#d8f006;
+}
+
+a::after {
+    content: "🚀";
+}
+
+a::before {
+    content: "🚀";
+}
