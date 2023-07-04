@@ -142,6 +142,6 @@ header {
 
 @media screen and (max-width: 900px) {
     .container-left {
-        height: 70%;
+        height: 50%;
     }
 }
